@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login</name>
+   <name>Booking an appointment</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e3f1aac3-becb-4dff-bcd2-1cbf08c38ed9</testCaseGuid>
+   <testCaseGuid>9d5d4922-c78d-470e-95c8-32733d2b6bf0</testCaseGuid>
 </TestCaseEntity>

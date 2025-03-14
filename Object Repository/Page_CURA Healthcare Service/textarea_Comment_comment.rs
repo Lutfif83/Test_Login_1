@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_password</name>
+   <name>textarea_Comment_comment</name>
    <tag></tag>
-   <elementGuidId>093f9ca3-fa1a-48be-adb5-7c796388cb69</elementGuidId>
+   <elementGuidId>4d54b0da-d001-463d-b2e3-43ec7b03ebbf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='txt-password']</value>
+         <value>//textarea[@id='txt_comment']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#txt-password</value>
+         <value>#txt_comment</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Password&quot;i</value>
+         <value>internal:attr=[placeholder=&quot;Comment&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,16 +28,8 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>292f2779-0641-42e2-a014-620869f6ab43</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>e84520be-0f5e-4e06-bdf9-f89613d71d56</webElementGuid>
+      <value>textarea</value>
+      <webElementGuid>e224e6eb-7c72-4ff5-b1a1-c0a9305ce7b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,78 +37,78 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>1381407b-9d09-41cc-a247-519d070fbee2</webElementGuid>
+      <webElementGuid>eb5c0096-63b8-4c66-9c21-21082a76d6f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>txt-password</value>
-      <webElementGuid>a108d9df-6975-484a-9958-f6e231708199</webElementGuid>
+      <value>txt_comment</value>
+      <webElementGuid>8e18e63d-c8e4-4088-9c59-437a3d85f666</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>0263c5e8-d885-46d7-a89a-9c831a701a56</webElementGuid>
+      <value>comment</value>
+      <webElementGuid>05bd0c48-ec1f-4535-9047-47966d257c39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>8f213f02-741a-4ae2-9529-ff964fce9487</webElementGuid>
+      <value>Comment</value>
+      <webElementGuid>00c71d77-dde8-4b73-accb-468e47009735</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>rows</name>
       <type>Main</type>
-      <value>off</value>
-      <webElementGuid>63d4a032-b7bd-4cbe-afea-49fbb69047f3</webElementGuid>
+      <value>10</value>
+      <webElementGuid>5ad995ab-0b5a-4014-a662-55d8fa5f6c28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txt-password&quot;)</value>
-      <webElementGuid>0ae5e379-e069-4bf2-92a4-47bc22a6ef12</webElementGuid>
+      <value>id(&quot;txt_comment&quot;)</value>
+      <webElementGuid>ecc95c14-994d-4270-b970-06ee7f8ba1a6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txt-password']</value>
-      <webElementGuid>92df1781-e68b-43fd-9516-24396ad5bb16</webElementGuid>
+      <value>//textarea[@id='txt_comment']</value>
+      <webElementGuid>dde7d468-6f67-4bdf-92bc-555b1cb7d3da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='login']/div/div/div[2]/form/div[3]/div/input</value>
-      <webElementGuid>f7cf559d-b8f6-47b8-9ff4-72543c873196</webElementGuid>
+      <value>//section[@id='appointment']/div/div/form/div[5]/div/textarea</value>
+      <webElementGuid>d25fa159-3626-4dc1-88ee-7d94c8de4a13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/input</value>
-      <webElementGuid>4f40b395-8ff7-4513-bfdf-10679c55e154</webElementGuid>
+      <value>//textarea</value>
+      <webElementGuid>9be44014-16ab-4825-900c-2852cf0ff757</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @id = 'txt-password' and @name = 'password' and @placeholder = 'Password']</value>
-      <webElementGuid>2a06a903-6237-41b9-ad1f-f644d8983285</webElementGuid>
+      <value>//textarea[@id = 'txt_comment' and @name = 'comment' and @placeholder = 'Comment']</value>
+      <webElementGuid>9f60dd5c-63b1-44ce-be34-399db3fe332f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

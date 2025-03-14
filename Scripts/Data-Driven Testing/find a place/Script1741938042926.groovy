@@ -19,15 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl('https://www.airbnb.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.setText(findTestObject('Object Repository/Airbnb Pages/Page_SearchResult/input_Where_query'), 'Bandung')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/div_Demo account_input-group'))
+WebUI.click(findTestObject('Object Repository/Airbnb Pages/Page_SearchResult/div_Check in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.click(findTestObject('Object Repository/Airbnb Pages/Page_SearchResult/svg'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.click(findTestObject('Object Repository/Airbnb Pages/Page_SearchResult/span_Add guests_t1dqvypu atm_9s_1ulexfb atm_023ad9'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/Airbnb Pages/Page_Search/h1_Search results Over 1,000 places in Atla_23c062'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Airbnb Pages/Page_Search/span_Over 1,000 places in Atlanta'), 
+    'Over 1,000 places in Bandung')
 

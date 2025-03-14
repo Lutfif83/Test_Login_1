@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Boking in appoinment</name>
+   <name>find a place</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>059995f0-25e4-4f38-90bc-89781a52508c</testCaseGuid>
+   <testCaseGuid>4edbf9de-c684-47f4-9148-ac53d650b002</testCaseGuid>
 </TestCaseEntity>
